@@ -40,12 +40,10 @@ public function delete($id)
 }
 public function edit($id,$title,$name,$price,$description)
 {
-    $query = "UPDATE student SET title='$title, name='$name', price=$price WHERE id=$id";
+    $query = "UPDATE student SET title='$title', name='$name', price=$price, description='$description' WHERE id=$id";
     mysqli_query($this->connectionStatus, $query);
 }
 
-
 }
-
 
 
