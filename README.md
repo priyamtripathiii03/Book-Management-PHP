@@ -61,5 +61,9 @@ A simple web-based application for managing books, built with PHP and MySQL.
   </p>
 
 
-https://github.com/user-attachments/assets/d9517d9a-fd2e-4226-96e0-47afb55fa3dc
+
+
+https://github.com/user-attachments/assets/b5059fb0-d723-4db4-b109-a8bdb69918fb
+
+
 
