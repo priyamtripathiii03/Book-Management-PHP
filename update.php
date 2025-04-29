@@ -22,17 +22,15 @@ $description = $_SESSION['description'] ?? '';
 
 
 if(isset($_REQUEST['button'])) {
-
-    $title = $_POST['title'];
-    $name = $_POST['name'];
-    $price = $_POST['price'];
-    $description = $_POST['description'];
-    $cl->edit($id, $title, $name, $price, $description);
-}
-
-if(isset($_REQUEST['seeBooks'])) {
+  $title = $_POST['title'];
+  $name = $_POST['name'];
+  $price = $_POST['price'];
+  $description = $_POST['description'];
+  $cl->edit($id, $title, $name, $price, $description);
   header("Location: show_data.php");
+  exit;
 }
+
 ?>
 
 <center>
